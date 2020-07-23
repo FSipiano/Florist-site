@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 1;
+  padding: 1000;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-emphasis: strong;
+  padding-top: 2in;
+  font-size: 5rem;
+  color: rgb(30, 165, 41);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  line-height: 1.6;
+  background: linear-gradient(180deg, rgb(144, 241, 188) 8%, rgb(183, 241, 207) 54%, rgb(144, 241, 188) 80%);
+}
+
+button{
+  display:none;
+}
+
+
+nav {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(71, 109, 68);
+  color: rgb(1, 207, 104);
+  opacity: 45%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  z-index: 100%;
+  width: 100%;
+  transition: background 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media only screen and (max-width: 500px) {
+
+  button{
+
+    display:block;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: rgb(12, 12, 12);
+    border:none;
+    outline: none;
+    cursor:pointer;
+  }
+
+  ul{
+    flex-direction:column;
+  }
+
+  li{
+    margin: 0;
+  }
+
+  a{
+    display:block;
+
+  }
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li{
+  list-style-type: none;
+  margin-right: 10px;
+  background-size: 10in;
+  background-image: 50%;
+
+}
+a {
+  text-decoration:none;
+  color: rgb(1, 46, 1);
+}
+a:hover{
+  background-color: rgb(53, 53, 53);
+}
+
+nav li:not(:last child),
+.welcome-event div span {
+  margin-right: 1.5rem
+}
+
+.img {
+  width: 550px;
+  height: auto;
+  max-height: 100%;
+  max-width:100%;
+  border-radius: 30%;
+  border-width: 1em;
+  border: rgb(168, 231, 105);
+  margin-bottom: 2cm;
+}
+.slidecontainer {
+  width: 100%;
+
+}
+.slider {
+  -webkit-appearance: none;
+  width: 52%;
+  height: 15px;
+  border-radius: 15px;  
+  background: #9e9e9e;
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 25px;
+  border:0; 
+  background-image:url('flower-304091_1280.png');
+  background-repeat:no-repeat;
+  background-size: 25px 25px;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  background: url('flower-304091_1280.png');
+  cursor: pointer;
+}
+
+.paragraph{
+padding-left:20%;
+padding-right:20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+

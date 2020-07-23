@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='styleSheet' type='text/css' href='style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>New order</title>
+
+</head>
+
+<body>
+<div class='topnav'>
+    <header id='newOrder'>
+        <nav class='navbar'>
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                
+                <li><a href='index.html'>The Bloom Room</a></li>
+
+                <li><a href='newOrder.html'>Place order</a></li>
+
+                <li><a href="contact.html">Contact us</a></li>
+                
+            </ul>
+        </nav>
+
+    </div>
+    </header>
+
+<h1>Flowers fresh to your door? Yes please!
+</h1>
+<h2>Place your order here!</h2>
+</section>
+
+<section id='add-order'>
+    <h2 class='section-title'>
+        Order</h2>
+    <hr />
+    <form class='form'>
+        <input type='text' id='Flower type' placeholder='Flower type'>
+        <input type='number' id='Quantity needed' placeholder='Quantity needed'>
+
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <textarea id='description' cols='30' rows='10' placeholders='Description...'></textarea>
+
+        <select id='status'>
+
+
+            <option value='0'>Collection</option>
+            <option value='1'>Delivery</option>
+
+        </select>
+
+        <button class='btn btn=primary'>Save</button>
+    </form>
+
+</section>
+</body>
+</html>

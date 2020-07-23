@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='styleSheet' type='text/css' href='style.css' />
+    
+
+<title>Floweroo</title>
+
+</head>
+
+<body>
+
+    <header id='home'>
+        <nav class='navbar'>
+            <ul>
+                <li><a href='#home'>Home</a></li>
+                
+                <li><a href='#The Bloom Room'>The Bloom Room</a></li>
+
+                <li><a href='newOrder.html'>Place Order</a></li>
+
+                <li><a href="contact.html">Contact us</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class='welcome-event'></div>
+    </header>
+    <h1>Floweroo</h1>
+    <hr />
+    <div class='paragraph'>   
+    <p>
+        <h3>Fresh flowers, delivered to your door!</h3>
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Fugit aliquid, voluptate quisquam enim harum aperiam nam mollitia qui explicabo eaque?
+        Sint ut qui ipsam maiores optio id magni temporibus illum!
+        <hr />
+    </p>
+    </div>
+    <main>
+        <section id='The-Bloom-Room'>
+            <h2 class='section-title'>The Bloom Room</h2>
+            <br>
+            <div class='row'>
+                <div>
+                <p>Roses</p>
+                <img class='img' src="rose-1868644_1280.jpg" alt="Pink rose on grass" />
+            </div>
+            <p>Anemones</p>
+            <img class='img' src="anemone-290340_1280.jpg" alt='Blue anemone on grass' />
+
+            <p>Gerbera</p>
+            <img class='img' src="flower-2635346_1280.jpg" alt="Orange gerbera on a bench" />
+
+            <p>Sunflowers</p>
+            <img class='img' src="sunflower-3550693_1280.jpeg" alt="Field of sunflowers" />
+
+            <hr />
+            <div class='flower-container'></div>
+        </section>
+
+        <section id='add-order'>
+            <h2 class='section-title'>
+                Order</h2>
+            <hr />
+            <form class='form'>
+                <input type='text' id='Flower type' placeholder='Flower type'>
+                <input type='number' id='Quantity needed' placeholder='Quantity needed'>
+
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+
+                <textarea id='description' cols='30' rows='10' placeholders='Description...'></textarea>
+
+                <select id='status'>
+
+
+                    <option value='0'>Collection</option>
+                    <option value='1'>Delivery</option>
+
+                </select>
+
+                <button class='btn btn=primary'>Save</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
