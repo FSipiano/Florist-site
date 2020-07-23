@@ -47,7 +47,7 @@ nav {
   transition: background 0.3s;
   position: fixed;
   top: 0;
-  left: 0
+  left: 0;
 }
 /* Style the hamburger menu */
 .topnav a.icon {
